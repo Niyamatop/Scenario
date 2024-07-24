@@ -17,10 +17,10 @@ TOKEN = os.environ.get("TOKEN", "7346455769:AAG4S9buEgIlCfwT-Vk80PaODeILZ_hLWlw"
 JOIN_LOGGER = os.environ.get("EVENT_LOGS", "-1002193507705")
 
 # only one # don't remove other one.
-OWNER_ID = int(os.environ.get("OWNER_ID", "5536168611", "fill_your_id_here_")) 
+OWNER_ID = int(os.environ.get("OWNER_ID", "2142595466", "5536168611")) 
 
 # only one # don't remove other one.
-OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "DARKCURSED0", "Your_username_here")
+OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "CoderX", "DARKCURSED0")
 
 # can add multiple with spaces
 DRAGONS = {int(x) for x in os.environ.get("DRAGONS", "").split()}
