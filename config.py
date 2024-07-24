@@ -26,7 +26,7 @@ OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "CoderX", "DARKCURSED0")
 DRAGONS = {int(x) for x in os.environ.get("DRAGONS", "").split()}
 
 # can add multiple with spaces
-DEV_USERS = {int(x) for x in os.environ.get("DEV_USERS", "").split()}
+DEV_USERS = {int(x) for x in os.environ.get("DEV_USERS", "5536168611").split()}
 
 # can add multiple with spaces
 DEMONS = {int(x) for x in os.environ.get("DEMONS", "").split()} 
