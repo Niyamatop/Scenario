@@ -11,16 +11,16 @@ Example - JOIN_LOGGER = os.environ.get("EVENT_LOGS", "-100828822882")
 
 
 # Token from botfather 
-TOKEN = os.environ.get("TOKEN", "")
+TOKEN = os.environ.get("TOKEN", "7346455769:AAG4S9buEgIlCfwT-Vk80PaODeILZ_hLWlw")
 
 # Make a new group then add @ScenarioXbot then send /id and fill id here.
-JOIN_LOGGER = os.environ.get("EVENT_LOGS", "")
+JOIN_LOGGER = os.environ.get("EVENT_LOGS", "-1002193507705")
 
 # only one # don't remove other one.
-OWNER_ID = int(os.environ.get("OWNER_ID", "2142595466", "fill_your_id_here_")) 
+OWNER_ID = int(os.environ.get("OWNER_ID", "5536168611", "fill_your_id_here_")) 
 
 # only one # don't remove other one.
-OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "CoderX", "Your_username_here")
+OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "DARKCURSED0", "Your_username_here")
 
 # can add multiple with spaces
 DRAGONS = {int(x) for x in os.environ.get("DRAGONS", "").split()}
@@ -57,13 +57,13 @@ PORT = int(os.environ.get("PORT", 8443))
 CERT_PATH = os.environ.get("CERT_PATH")
 
 # Bot Owner's API_ID (From:- https://my.telegram.org/apps)
-API_ID = os.environ.get("API_ID", "")
+API_ID = os.environ.get("API_ID", "28298365")
 
 # Bot Owner's API_HASH (From:- https://my.telegram.org/apps)
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "9647ab7fc03a8a93f701a5528b2f206e")
 
 # Any SQL Database Link (RECOMMENDED:- PostgreSQL & https://www.elephantsql.com)
-DB_URL = os.environ.get("DATABASE_URL", "") 
+DB_URL = os.environ.get("DATABASE_URL", "postgres://avnadmin:AVNS_gwvtPgMcQ7IX0qwaCG9@freedb-mayrice01.i.aivencloud.com:14358/defaultdb?sslmode=require") 
 
 # Don't touch
 DB_URL = DB_URL.replace(
@@ -83,15 +83,15 @@ REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", "")
 
 OPENWEATHERMAP_ID = os.environ.get("OPENWEATHERMAP_ID", "") # From:- https://openweathermap.org/api
 GENIUS_API_TOKEN = os.environ.get("GENIUS_API_TOKEN", None) # From:- http://genius.com/api-clients
-MONGO_DB_URL = os.environ.get("MONGO_DB_URL", "mongodb+srv://Cluster006:600510@cluster006.ootpa.mongodb.net/Cluster006?retryWrites=true&w=majority")
+MONGO_DB_URL = os.environ.get("MONGO_DB_URL", "mongodb+srv://Dark123:Dark123@cluster0.jsapbqx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 REDIS_URL = os.environ.get("REDIS_URL", "redis://Madharjoot:GuKhao123_@redis-12276.c275.us-east-1-4.ec2.cloud.redislabs.com:12276/Madharjoot")
 BOT_ID = int(os.environ.get("BOT_ID", None)) # Telegram Bot ID (EXP:- 1241223850)
 SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", None) # Support Chat Group Link (Use @ScenarioXSupport || Dont Use https://t.me/ScenarioXSupport)
 SPAMWATCH_SUPPORT_CHAT = os.environ.get("SPAMWATCH_SUPPORT_CHAT", None) # Use @SpamWatchSupport
 SPAMWATCH_API = os.environ.get("SPAMWATCH_API", None) # From https://t.me/SpamWatchBot 
-BOT_USERNAME = os.environ.get("BOT_USERNAME", "") # Bot Username
+BOT_USERNAME = os.environ.get("BOT_USERNAME", "Gshshsjje_jsjs_bot") # Bot Username
 
-STRING_SESSION = os.environ.get("STRING_SESSION", None) # Telethon Based String Session (2nd ID) [ From https://repl.it/@SpEcHiDe/GenerateStringSession ]
+STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOLwBu0m2A5RBTx7sK7sNK0kRT4YjQEjYLm5RCm1NrkU0_0-sO_4QEdJ2Rk2xdAYBPPtJjQHY8eLpA1qjfLaOVmblfMjP3QUOqV15v1qTmmQuANXArX31a1jbTlOUyWqywTVbqbHpnqN7Al4A0igxdJ7XA8Am64xahNof82sRokSlr1YPTuG9dzvj98lzW3QTqU-jWC0lBgu86Ok5NaYwfSQ_EHCS0qjRvpVTfepFh8Jt9XcbRKky8NqtrG2-UaaR_eHk_T7YPtcvRKJ7ynFq2LBGcyRBi9AROHHtaCzY4xpss33B73Wc5iyT0mspFKsFNw3ZbOEwI1o162gRcaIj6Rm3uxg=") # Telethon Based String Session (2nd ID) [ From https://repl.it/@SpEcHiDe/GenerateStringSession ]
 REPO = "TeamScenario/Scenario"
 DEVELOPER = "TeamScenario"
 APP_ID = API_ID
